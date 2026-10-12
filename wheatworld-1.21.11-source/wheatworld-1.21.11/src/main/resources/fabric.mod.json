@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wheatworld",
+  "version": "${version}",
+  "name": "Wheat World",
+  "description": "Every surface in the overworld becomes permanently wet farmland with fully grown wheat. Terrain shape stays vanilla.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.wheatworld.WheatWorld"]
+  },
+  "mixins": ["wheatworld.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
